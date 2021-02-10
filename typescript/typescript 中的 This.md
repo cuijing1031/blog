@@ -57,16 +57,3 @@ const some:B = {
 ```
 
 去掉 `ThisTyps<A>`的话，ts 会将 B 中的 this 自动推断为类型 B, 也就是说我们在函数 method 中通过 this 只能引用 `this.id` 和 `this.method`
-
-
-
-
-
-
-
-
-
-
-
-
-
